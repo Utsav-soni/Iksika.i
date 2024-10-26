@@ -8,14 +8,14 @@ Iksika/Ikshika, rooted in the Sanskrit word for "a glance" or "look," perfectly 
 
 The application is intentionally built to support visually impaired individuals, aligning with its primary goal of making the world more accessible to those with visual challenges. The UI is intuitively designed for easy adaptation and interaction, empowering users to experience the environment using just a device’s camera and speaker. Beyond accessibility, Iksika has diverse applications across social and business domains, from tourism to translation, education, personalized assistance, and many more.
 
-In terms of development, Iksika’s codebase is modularly structured to enhance scalability and customization. The project reflects proficiency in CSS integration, Python function interactions, and the use of open-source libraries like Groq, Streamlit, PIL, gTTS, Deep Translator, and Logger alongside APIs such as Groq and LangSmith. Developed solely by Utsav Soni, Iksika embodies vision AI capabilities aimed at creating social impact and business value.
+Regarding development, Iksika’s codebase is modularly structured to enhance scalability and customization. The project reflects proficiency in CSS integration, Python function interactions, and the use of open-source libraries like Groq, Streamlit, PIL, gTTS, Deep Translator, and Logger alongside APIs such as Groq and LangSmith. Developed solely by Utsav Soni, Iksika embodies vision AI capabilities aimed at creating social impact and business value.
 
 
 
 ## Features of Iksika
 
 - **Real-Time Image Analysis**: Capture live images or upload them from your device, and instantly get a detailed description of your surroundings in your language.
-- **Groq Powered LLaMA 3.2 Vision Model**: Utilizes Meta’s LLaMA 3.2-90B Vision Preview model, optimized with Groq's inference engine for high-performance image recognition and analysis.
+- **Groq Powered LLaMA 3.2 Vision**: Utilizes Meta’s LLaMA 3.2-90B Vision Preview model, optimized with Groq's inference engine for high-performance image recognition and analysis.
 - **Multi-Language Support**: Provides descriptions in over 50 languages, making it accessible to users globally with customizable language selection.
 - **Instant Talkback**: Generates text-to-speech output in the selected language, enabling users to hear the description for hands-free interaction.
 - **Regenerate Description**: Offers a "Regenerate Description" button for obtaining an updated or alternative description with a single click, ensuring accurate insights.
@@ -59,7 +59,7 @@ pip install -r requriements.txt
   - Go to the API section
   - Create a new API and copy it
 
-2. Enter your Groq and Langsmith API key in the commented line in app.py or Create .env file and paste it in the same folder as the app.py
+2. Enter your Groq and Langsmith API key in the commented line in iksika.py or Create .env file and paste it into the same folder as the iksika.py
    Format for .env:
    `GROQ_API_KEY=XXXXXXX, LANGSMITH_API_KEY=XXXXXXXXXXX`
 
