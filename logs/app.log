@@ -1,0 +1,21 @@
+2024-10-24 00:16:58,685 - vision_app - INFO - Environment variables loaded successfully.
+2024-10-24 00:16:58,685 - vision_app - INFO - GROQ_API_KEY found in environment variables.
+2024-10-24 00:16:58,685 - vision_app - INFO - Initialized TTS Manager.
+2024-10-24 00:16:59,835 - vision_app - INFO - Groq client initialized.
+2024-10-24 00:16:59,854 - vision_app - INFO - CSS loaded successfully.
+2024-10-24 00:16:59,859 - vision_app - INFO - Starting the main application.
+2024-10-24 00:16:59,866 - vision_app - INFO - Application execution completed.
+2024-10-24 00:17:03,744 - vision_app - INFO - Environment variables loaded successfully.
+2024-10-24 00:17:03,744 - vision_app - INFO - GROQ_API_KEY found in environment variables.
+2024-10-24 00:17:04,820 - vision_app - INFO - Groq client initialized.
+2024-10-24 00:17:04,820 - vision_app - INFO - CSS loaded successfully.
+2024-10-24 00:17:04,827 - vision_app - INFO - Starting the main application.
+2024-10-24 00:17:05,837 - vision_app - INFO - New image captured. Processing image...
+2024-10-24 00:17:09,224 - vision_app - INFO - Description generated successfully.
+2024-10-24 00:17:14,143 - vision_app - INFO - Application execution completed.
+2024-10-24 00:17:32,955 - vision_app - INFO - Environment variables loaded successfully.
+2024-10-24 00:17:32,955 - vision_app - INFO - GROQ_API_KEY found in environment variables.
+2024-10-24 00:17:34,312 - vision_app - INFO - Groq client initialized.
+2024-10-24 00:17:34,315 - vision_app - INFO - CSS loaded successfully.
+2024-10-24 00:17:34,322 - vision_app - INFO - Starting the main application.
+2024-10-24 00:17:34,353 - vision_app - INFO - Application execution completed.

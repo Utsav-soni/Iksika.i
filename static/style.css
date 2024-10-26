@@ -1,0 +1,143 @@
+
+/* Body Styling */
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Left SVG Logo Styles */
+.svg-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.svg-left img {
+    height: 69px;
+    width: 93px;
+    object-fit: contain;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 33px;
+    padding-left: 0px;
+}
+
+/* Right SVG Logo Styles */
+.svg-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.svg-right img {
+    height: 60px;
+    width: 187px;
+    object-fit: contain;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+}
+
+/* Camera Permission Info Box */
+.camera-permission-info {
+    background-color: #f9f9f9;
+    color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+/* Camera Container */
+.camera-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Styling for File Input */
+input[type="file"] {
+    width: 100%;
+    height: auto;
+}
+
+/* Button Styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Hide Unnecessary UI Elements */
+.st-emotion-cache-12fmjuu, .st-emotion-cache-h4xjwg {
+    display: none;
+}
+
+
+/* Adjusting Smart Image Describer Padding */
+#smart-image-describer {
+    padding-top: 1.25rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+}
+
+/* TAKE IMAGE Padding Adjustments for Layout */
+.st-emotion-cache-khjqke, .st-emotion-cache-bcargt {
+    padding: 2.375rem 0.75rem;
+}
+
+/* Container for Width Adjustments */
+.st-emotion-cache-13ln4jf {
+    width: auto !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+/* Preview for uploaded Image from phone */
+.upload-preview {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.upload-preview img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style for the file uploader */
+.st-emotion-cache-1gulkj5 {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Gradient effect for the logo Iksika.i */
+.gradient-text {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 45px;
+    background: linear-gradient(90deg, #FFA500, #FF4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+/* normal text */
+.normal-eye {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    color: black;
+}
