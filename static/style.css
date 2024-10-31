@@ -22,6 +22,11 @@ body {
     padding-left: 0px;
 }
 
+._profileImage_51w34_76
+{
+    display : none !important;
+}
+
 /* Right SVG Logo Styles */
 .svg-right {
     position: absolute;
