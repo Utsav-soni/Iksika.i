@@ -76,10 +76,13 @@ button:hover {
 }
 
 /* Hide Unnecessary UI Elements */
-.st-emotion-cache-12fmjuu, .st-emotion-cache-h4xjwg, ._profilePreview_51w34_63, ._link_51w34_10  {
+.st-emotion-cache-12fmjuu, .st-emotion-cache-h4xjwg, ._link_51w34_10  {
     display: none !important;
 }
 
+._profilePreview_51w34_63{
+   display: none !important;
+}
 
 /* Adjusting Smart Image Describer Padding */
 #smart-image-describer {
