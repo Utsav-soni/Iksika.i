@@ -1,6 +1,9 @@
 ._profilePreview_51w34_63 {
-    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
+
 
 
 /* Body Styling */
