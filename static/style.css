@@ -80,9 +80,10 @@ button:hover {
     display: none !important;
 }
 
-._profilePreview_51w34_63{
-   display: none !important;
+[class*="_profilePreview_"] {
+    display: none !important;
 }
+
 
 /* Adjusting Smart Image Describer Padding */
 #smart-image-describer {
