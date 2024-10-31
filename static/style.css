@@ -1,3 +1,7 @@
+._profilePreview_51w34_63 {
+    display: none !important;
+}
+
 
 /* Body Styling */
 body {
@@ -20,11 +24,6 @@ body {
     padding-right: 0px;
     padding-bottom: 33px;
     padding-left: 0px;
-}
-
-._profileImage_51w34_76
-{
-    display : none !important;
 }
 
 /* Right SVG Logo Styles */
@@ -81,13 +80,10 @@ button:hover {
 }
 
 /* Hide Unnecessary UI Elements */
-.st-emotion-cache-12fmjuu, .st-emotion-cache-h4xjwg, ._link_51w34_10  {
+.st-emotion-cache-12fmjuu, .st-emotion-cache-h4xjwg{
     display: none !important;
 }
 
-div._profilePreview_51w34_63 {
-    display: none !important;
-}
 
 
 /* Adjusting Smart Image Describer Padding */
