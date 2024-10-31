@@ -77,7 +77,7 @@ button:hover {
 
 /* Hide Unnecessary UI Elements */
 .st-emotion-cache-12fmjuu, .st-emotion-cache-h4xjwg {
-    display: none;
+    display: none !important;
 }
 
 
