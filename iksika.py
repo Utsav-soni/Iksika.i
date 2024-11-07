@@ -254,7 +254,7 @@ def main():
 
 # Centered button and logic to show contact information
    
-    if st.button("Contact Developer",use_container_width=True):
+    if st.button("Contact Developer (Click & Scroll Down)",use_container_width=True):
         st.session_state.show_contact_info = True
 
 # Centered contact information if the button is clicked
