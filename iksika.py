@@ -245,7 +245,45 @@ def main():
                     st.session_state.last_response,
                     language=st.session_state.tts_language
                 )
-   
+    # CSS for centering the button and text
+    st.markdown("""
+    <style>
+    .center-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .center-button {
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .center-text {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #333;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# HTML for centering the button and text
+    st.markdown("""
+    <div class="center-content">
+        <button class="center-button" onclick="document.getElementById('contact-info').style.display='block'">Contact Developer</button>
+        <div id="contact-info" style="display: none;" class="center-text">
+            Let's Connect<br>
+            Mail id: soniutsav22@gmail.com
+        </div>
+    </div>
+""", unsafe_allow_html=True)
+
 # Run main() only if this script is executed directly
 if __name__ == "__main__":
     main()
