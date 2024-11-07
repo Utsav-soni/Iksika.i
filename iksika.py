@@ -263,7 +263,7 @@ def main():
             ---
             **Let's Connect**
             - **Email:** soniutsav22@gmail.com
-            **Thanks for your Time 😊**
+            - **Thanks for your Time 😊**
             """, unsafe_allow_html=True)
 
     
