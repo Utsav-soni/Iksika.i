@@ -250,16 +250,15 @@ def main():
         st.session_state.show_contact_info = False
 
     # Create two empty columns for centering content
-   col2= st.columns([1])
+   
 
 # Centered button and logic to show contact information
-    with col2:
-        if st.button("Contact Developer"):
-            st.session_state.show_contact_info = True
+   
+    if st.button("Contact Developer"):
+        st.session_state.show_contact_info = True
 
 # Centered contact information if the button is clicked
     if st.session_state.show_contact_info:
-        with col2:
             st.markdown("""
             ---
             **Let's Connect**
