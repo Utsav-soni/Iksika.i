@@ -250,7 +250,7 @@ def main():
         st.session_state.show_contact_info = False
 
     # Create two empty columns for centering content
-    col1, col2, col3 = st.columns([1, 1, 1])
+   col2= st.columns([1])
 
 # Centered button and logic to show contact information
     with col2:
