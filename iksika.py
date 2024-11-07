@@ -244,8 +244,10 @@ def main():
                 st.session_state.tts_manager.create_audio(
                     st.session_state.last_response,
                     language=st.session_state.tts_language
-                )if "show_contact_info" not in st.session_state:
-    st.session_state.show_contact_info = False
+                )
+                
+    if "show_contact_info" not in st.session_state:
+        st.session_state.show_contact_info = False
 
     # Create two empty columns for centering content
     col1, col2, col3 = st.columns([1, 2, 1])
