@@ -263,18 +263,10 @@ def main():
             ---
             **Let's Connect**
             - **Email:** soniutsav22@gmail.com
-            - **Thanks fo your Time**
+            **Thanks for your Time 😊**
             """, unsafe_allow_html=True)
 
-    hide_streamlit_style = """
-    <style>
-    #MainMenu {visibility: hidden;} /* Hide the hamburger menu */
-    footer {visibility: hidden;} /* Hide the footer */
-    </style>
-    """
-    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-
+    
 # Run main() only if this script is executed directly
 if __name__ == "__main__":
     main()
