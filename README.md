@@ -1,5 +1,7 @@
 # Iksika.i - Discover Life in Every Frame
 
+live @: https://iksika-by-utsav-soni.streamlit.app/
+
 ## Introduciton
 
 For further use cases and comprehensive documentation, please refer to this URL: https://github.com/Utsav-soni/Iksika.i/blob/main/iksika.i_By_Utsav_Soni.pdf
