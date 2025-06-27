@@ -31,7 +31,7 @@ LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY")
 
 # Initialize Groq client
 client = Groq(api_key=GROQ_API_KEY)
-llama_3_2 = 'llama-3.2-90b-vision-preview'
+llama_3_2 = 'meta-llama/llama-4-scout-17b-16e-instruct'
 
 # For Groq communitiy and other developers: Paste your API keys here, If you want to explore the APP
 #GROQ_API_KEY = XXXXXXXXXXXXXXXXX
